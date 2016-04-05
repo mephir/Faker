@@ -2,9 +2,9 @@
 
 namespace Faker\Provider\en_AE;
 
-use Faker\Provider\Image;
+use Faker\Provider\Image as BaseImage;
 
-class Image extends Image
+class Image extends BaseImage
 {
     protected static $categories = array(
         'abstract', 'animals', 'business', 'cats', 'city', 'food', 'nightlife',
