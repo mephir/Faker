@@ -49,7 +49,7 @@ class Image extends BaseImage
         }
 
         imagejpeg($image, $filepath);
-
+        imagedestroy($image);
 
         return $fullPath ? $filepath : $filename;
     }
